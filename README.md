@@ -15,7 +15,7 @@ Grab the Service ip or nodeport:
 ```
 kubectl describe service selenium-hub
 ```
-Then it should be on <serviceip>:4444 or <kube-host>:<nodeport>/
+Then it should be on serviceip:4444 or kube-host:nodeport/
 
 To check on one of the browser nodes via VNC, you may have to proxy depending on your kube setup:
 ```
